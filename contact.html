@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Contact Mobsoft Pvt. Ltd. in Khairahani-07, Chitwan, Nepal for Android apps, Unity games, UI/UX, SEO and technology training.">
+
+    <title>Contact | Mobsoft Pvt. Ltd.</title>
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link rel="stylesheet"
+          href="css/responsive.css">
+
+    <link rel="stylesheet"
+          href="css/animations.css">
+
+
+    <style>
+
+        .contact-section {
+            background: var(--light);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 0.8fr 1.2fr;
+            gap: 30px;
+            align-items: start;
+        }
+
+        .contact-info,
+        .contact-form-box {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 35px;
+        }
+
+        .contact-info h3,
+        .contact-form-box h3 {
+            color: var(--dark);
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .contact-info > p {
+            color: var(--text-light);
+            font-size: 13px;
+            margin-bottom: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .contact-item-icon {
+            flex-shrink: 0;
+            width: 45px;
+            height: 45px;
+            display: grid;
+            place-items: center;
+            background: #eff6ff;
+            color: var(--primary);
+            border-radius: 10px;
+        }
+
+        .contact-item strong {
+            display: block;
+            color: var(--dark);
+            font-size: 13px;
+            margin-bottom: 3px;
+        }
+
+        .contact-item span {
+            color: var(--text-light);
+            font-size: 12px;
+        }
+
+        .contact-form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+
+        .form-group.full {
+            grid-column: 1 / -1;
+        }
+
+        .form-group label {
+            color: var(--dark);
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            border: 1px solid var(--border);
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 13px 14px;
+            outline: none;
+            color: var(--dark);
+            font-size: 13px;
+            transition: 0.3s ease;
+        }
+
+        .form-group textarea {
+            min-height: 140px;
+            resize: vertical;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: var(--primary);
+            background: white;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.08);
+        }
+
+        .contact-form .btn {
+            grid-column: 1 / -1;
+            border: none;
+            width: fit-content;
+        }
+
+        .map-box {
+            min-height: 300px;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            background:
+                linear-gradient(
+                    135deg,
+                    #e2e8f0,
+                    #f8fafc
+                );
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            margin-top: 30px;
+        }
+
+        .map-content i {
+            font-size: 40px;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .map-content h3 {
+            color: var(--dark);
+            margin-bottom: 5px;
+        }
+
+        .map-content p {
+            color: var(--text-light);
+            font-size: 12px;
+        }
+
+        @media (max-width: 800px) {
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+        @media (max-width: 600px) {
+
+            .contact-info,
+            .contact-form-box {
+                padding: 25px;
+            }
+
+            .contact-form {
+                grid-template-columns: 1fr;
+            }
+
+            .form-group.full {
+                grid-column: auto;
+            }
+
+            .contact-form .btn {
+                grid-column: auto;
+                width: 100%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+<header class="header">
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-icon">M</span>
+
+                <span>
+                    <strong>Mobsoft</strong>
+                    <small>Pvt. Ltd.</small>
+                </span>
+
+            </a>
+
+
+            <button class="menu-toggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+            <div class="nav-menu">
+
+                <a href="index.html"
+                   class="nav-link">
+                    Home
+                </a>
+
+                <a href="about.html"
+                   class="nav-link">
+                    About
+                </a>
+
+                <a href="services.html"
+                   class="nav-link">
+                    Services
+                </a>
+
+                <a href="portfolio.html"
+                   class="nav-link">
+                    Portfolio
+                </a>
+
+                <a href="training.html"
+                   class="nav-link">
+                    Training
+                </a>
+
+                <a href="contact.html"
+                   class="nav-link active">
+                    Contact
+                </a>
+
+                <a href="contact.html"
+                   class="nav-cta">
+                    Let's Work Together
+                </a>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<section class="hero"
+         style="min-height: 520px;">
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+
+                <span></span>
+
+                CONTACT MOBSOFT
+
+            </div>
+
+
+            <h1>
+
+                Have an Idea?
+                <span>Let's Talk.</span>
+
+            </h1>
+
+
+            <p>
+
+                Tell us what you want to build, improve
+                or learn. Our team will get back to you
+                about your requirements.
+
+            </p>
+
+            <div class="hero-trust">
+
+                <div>
+                    <strong>14+</strong>
+                    <span>Years Experience</span>
+                </div>
+
+                <div>
+                    <strong>20+</strong>
+                    <span>Products</span>
+                </div>
+
+                <div>
+                    <strong>10+</strong>
+                    <span>Countries</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+            <div class="visual-glow"></div>
+
+            <div class="device-card device-main">
+
+                <div class="device-header">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <div class="device-content">
+
+                    <div class="mini-icon">
+
+                        <i class="fa-solid fa-comments"></i>
+
+                    </div>
+
+                    <h3>
+                        Let's Connect
+                    </h3>
+
+                    <p>
+                        Idea • Project • Training
+                    </p>
+
+                    <div class="progress-line">
+                        <span></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section contact-section">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span class="section-label">
+                GET IN TOUCH
+            </span>
+
+            <h2>
+                Let's Start a
+                <span>Conversation.</span>
+            </h2>
+
+            <p>
+                Whether you have a project idea,
+                business requirement or training enquiry,
+                we'd love to hear from you.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <div class="contact-info reveal-left">
+
+                <h3>
+                    Mobsoft Pvt. Ltd.
+                </h3>
+
+                <p>
+                    Technology solutions from
+                    Khairahani-07, Chitwan, Nepal.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-item-icon">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Office
+                        </strong>
+
+                        <span>
+                            Khairahani-07,
+                            Chitwan, Nepal
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-item-icon">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Email
+                        </strong>
+
+                        <span>
+                            Add your official email here
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-item-icon">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Phone
+                        </strong>
+
+                        <span>
+                            Add your official phone number
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-item-icon">
+
+                        <i class="fa-solid fa-clock"></i>
+
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Working Hours
+                        </strong>
+
+                        <span>
+                            Sunday - Friday
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="social-links">
+
+                    <a href="#"
+                       aria-label="Facebook">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                    </a>
+
+                    <a href="#"
+                       aria-label="Instagram">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <a href="#"
+                       aria-label="LinkedIn">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+
+            <div class="contact-form-box reveal-right">
+
+                <h3>
+                    Tell Us About Your Project
+                </h3>
+
+                <p style="color:var(--text-light);
+                          font-size:13px;
+                          margin-bottom:25px;">
+
+                    Fill out the form and we'll contact you.
+
+                </p>
+
+
+                <form class="contact-form"
+                      id="contactForm">
+
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Your phone number">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="service">
+                            Service
+                        </label>
+
+                        <select id="service"
+                                name="service">
+
+                            <option value="">
+                                Select a service
+                            </option>
+
+                            <option>
+                                Unity Game Development
+                            </option>
+
+                            <option>
+                                Android App Development
+                            </option>
+
+                            <option>
+                                UI/UX Design
+                            </option>
+
+                            <option>
+                                SEO & Digital Marketing
+                            </option>
+
+                            <option>
+                                Technology Training
+                            </option>
+
+                            <option>
+                                Custom Solution
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group full">
+
+                        <label for="message">
+                            Project Details
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Tell us about your idea or project..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <button type="submit"
+                            class="btn btn-primary">
+
+                        Send Enquiry
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <!-- LOCATION -->
+
+        <div class="map-box">
+
+            <div class="map-content">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <h3>
+                    Mobsoft Pvt. Ltd.
+                </h3>
+
+                <p>
+                    Khairahani-07, Chitwan, Nepal
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="cta-section">
+
+    <div class="container cta-content">
+
+        <span class="section-label">
+            MOBSOFT PVT. LTD.
+        </span>
+
+        <h2>
+            Let's Turn Your Idea
+            <span>Into Reality.</span>
+        </h2>
+
+        <p>
+            Apps, games, design, SEO or training —
+            we're ready to help.
+        </p>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="index.html"
+                   class="logo footer-logo">
+
+                    <span class="logo-icon">M</span>
+
+                    <span>
+                        <strong>Mobsoft</strong>
+                        <small>Pvt. Ltd.</small>
+                    </span>
+
+                </a>
+
+                <p>
+                    Building useful digital products,
+                    experiences and technology solutions.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Company</h3>
+
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="training.html">Training</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Services</h3>
+
+                <a href="services.html">Unity Game Development</a>
+                <a href="services.html">Android Apps</a>
+                <a href="services.html">UI/UX Design</a>
+                <a href="services.html">SEO</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Location</h3>
+
+                <a href="contact.html">
+                    Khairahani-07
+                </a>
+
+                <a href="contact.html">
+                    Chitwan, Nepal
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span data-year></span>
+                Mobsoft Pvt. Ltd. All rights reserved.
+            </p>
+
+            <p>
+                Khairahani-07, Chitwan, Nepal
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<button class="back-to-top"
+        aria-label="Back to top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const form =
+        document.getElementById("contactForm");
+
+    if (!form) return;
+
+    form.addEventListener("submit", event => {
+
+        event.preventDefault();
+
+        const name =
+            document.getElementById("name").value;
+
+        const service =
+            document.getElementById("service").value;
+
+        const message =
+            document.getElementById("message").value;
+
+
+        const subject =
+            encodeURIComponent(
+                "Mobsoft Project Enquiry - " +
+                (service || "General")
+            );
+
+
+        const body =
+            encodeURIComponent(
+                "Hello Mobsoft Pvt. Ltd.,\n\n" +
+                "Name: " + name + "\n" +
+                "Service: " + service + "\n\n" +
+                "Project Details:\n" +
+                message
+            );
+
+
+        /*
+         * Replace this email address
+         * with your real Mobsoft email.
+         */
+
+        window.location.href =
+            "mailto:YOUR-EMAIL@example.com" +
+            "?subject=" +
+            subject +
+            "&body=" +
+            body;
+
+    });
+
+});
+
+</script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
